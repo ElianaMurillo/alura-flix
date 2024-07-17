@@ -22,6 +22,14 @@
 
   --bg-navbar-light: white;
   --bg-navbar-dark: #222831;
+
+  --font-size-categories: 500;
+  --image-video-categories: 200px;
+  --color-category-frontend: rgba(107, 209, 255, 1);
+  --color-category-backend: rgba(0, 200, 111, 1);
+  --color-category-innovacion: rgba(255, 186, 5, 1);
+
+
 }
 
 [data-theme='light-theme'] {
@@ -67,4 +75,21 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
+}
+
+.container-videos-for-categories {
+  width: 20%;
+}
+
+.name-category-frontend {
+  background-color: var(--color-category-frontend);
+}
+
+
+.name-category-backend {
+  background-color: var(--color-category-backend);
+}
+
+.name-category-innovacion {
+  background-color: var(--color-category-innovacion);
 }
