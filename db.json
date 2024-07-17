@@ -1,0 +1,63 @@
+{
+    "categories": [
+        {
+            "id": "frontend",
+            "name": "frontend"
+        },
+        {
+            "id": "backend",
+            "name": "backend"
+        },
+        {
+            "id": "innovacion",
+            "name": "innovacion"
+        }
+    ],
+    "videos": [
+        {
+            "id": 1,
+            "title": "Programador en T: ¿Qué es ser un T Shaped Professional?",
+            "category": "frontend",
+            "image": "frontend.png",
+            "url": "https://www.youtube.com/watch?v=ra5ojn-Ax7U",
+            "description": "En este video, Christian Velasco nos explica qué significa ser un Programador en T, las ventajas de tener conocimiento en más de un área y dá ejemplo de grandes personalidades que se encuadran en el perfil de profesional en T."
+        },
+        {
+            "id": 2,
+            "title": "Simplificando el Back End #AluraTips",
+            "category": "backend",
+            "image": "ima.png",
+            "url": "https://www.youtube.com/watch?v=XuSXJ9DUcvY",
+            "description": "¿Quieres conocer y entender mejor qué es el Back End? En este video Bismarck Berrios nos explica qué es el back end de una manera sencilla."
+        },
+        {
+            "id": 3,
+            "title": "Cómo volverse un desarrollador Front End #AluraTips",
+            "category": "frontend",
+            "image": "frontend-png",
+            "url": "https://www.youtube.com/watch?v=-Ou5c3A225k",
+            "description": "Terminé mis estudios, ¿y ahora? ¿Cómo puedo entrar al mercado laboral? ¿Cómo encontrar un trabajo front end? En este video nuestra instructor Barbara nos da algunos consejos para las personas que desean entrar en el área del desarrollo web."
+        },{
+            "id": 4,
+            "title": "¿Cómo un desarrollador Front End utiliza el Figma? #AluraMás",
+            "category": "frontend",
+            "image": "figma.png",
+            "url": "https://www.youtube.com/watch?v=UuAX5azcvDQ",
+            "description": "¿Cómo un desarrollador Front End utiliza el Figma? En este Alura+, Genesys, instructora de Alura Latam, nos responde esa pregunta y nos muestra esta conocida herramienta."
+        },{
+            "id": 5,
+            "title": "Lanzamiento Exclusivo: Luri, Tu Nuevo Asistente de Aprendizaje con IA| Novedades 2024 de Alura Latam",
+            "category": "innovacion",
+            "image": "luri.png",
+            "url": "https://www.youtube.com/watch?v=RHn9PLUQjJI",
+            "description": "En este evento único, estamos emocionados de revelar las últimas innovaciones en educación online y presentar a Luri, tu asistente personal de aprendizaje potenciado por la avanzada tecnología de ChatGPT. "
+        },{
+            "id": 6,
+            "title": "Explorando el poder del Back-End en el Desarrollo Web",
+            "category": "backend",
+            "image": "back-png",
+            "url": "https://www.youtube.com/watch?v=Z024LSCMqFk",
+            "description": "¿Quieres saber más?"
+        }
+    ]
+}

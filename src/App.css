@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+:root {
+  --primary-black: rgba(0, 0, 0, 0.9);
+  --secondary-black: rgb(96, 96, 182);
+
+  --text-primary-light: #24262F;
+  --text-primary-dark: white;
+
+  --text-highlighted-ligth:  rgba(0, 0, 0, 0.9);
+  --text-highlighted-dark: rgba(34, 113, 209, 1);
+
+  --text-secondary-light: rgb(70, 70, 70);
+  --text-secondary-dark: rgb(160, 160, 160);
+
+  --bg-primary-light: white;
+  --bg-primary-dark: rgba(0, 0, 0, 0.9);
+
+  --bg-secondary-light: white;
+  --bg-secondary-dark: #31363f4f;
+
+  --bg-navbar-light: white;
+  --bg-navbar-dark: #222831;
+}
+
+[data-theme='light-theme'] {
+  --text-primary: var(--text-primary-light);
+  --text-secondary: var(--text-secondary-light);
+  --text-highlighted: var(--text-highlighted-ligth);
+  --bg-primary: var(--bg-primary-light);
+  --bg-secondary: var(--bg-secondary-light);
+  --bg-navbar: var(--bg-navbar-light);
+}
+
+[data-theme='dark-theme'] {
+  --text-primary: var(--text-primary-dark);
+  --text-secondary: var(--text-secondary-dark);
+  --text-highlighted: var(--text-highlighted-dark);
+  --bg-primary: var(--bg-primary-dark);
+  --bg-secondary: var(--bg-secondary-dark);
+  --bg-navbar: var(--bg-navbar-dark);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-navbar);
+  padding: 2%;
+}
+
+.logo {
+  height: 40px;
+}
+
+.button-style {
+  background-color: var(--bg-secondary);
+  font-weight: 600;
+  border: 1px solid var(--text-primary);
+  color: var(--text-primary);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.header-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
